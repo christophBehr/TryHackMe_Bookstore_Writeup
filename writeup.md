@@ -79,7 +79,7 @@ I kept searching for clues what the magic number might be, but there where none.
 Then I opend a simple python server on the victim machine and wget it to my attack machine.
 I knew that with Ghidra you can reverse engineer Software. I didn´t have any experience with Ghidra or reverse engineering.
 As. like many times, Youtube for the rescue. 
-This[Ghidra_Tutorial](https://www.youtube.com/watch?v=fTGTnrgjuGA&t=488s) gave me enough information to reverse engineer the try-harder script.
+This [Ghidra_Tutorial](https://www.youtube.com/watch?v=fTGTnrgjuGA&t=488s) gave me enough information to reverse engineer the try-harder script.
 The magic number is the result of three XOR'd HEX numbers found in the code.
 Running the try-harder script again on the victim machine an inserting the magic number granted me root.
 in /root/root.txt I found the root and final flag.
